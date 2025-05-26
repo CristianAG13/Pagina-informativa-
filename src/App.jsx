@@ -1,15 +1,12 @@
 import './App.css'
-import SimadPage from './/PaginaInformativa/SimadPage'
+import { BrowserRouter } from 'react-router-dom'
+import { SimadRoutes } from './PaginaInformativa/routes/SimadRoutes'
 
 const App = () => {
-
-
   return (
-    <>
-
-   <SimadPage/>
-     
-    </>
+    <BrowserRouter>
+      <SimadRoutes />
+    </BrowserRouter>
   )
 }
 

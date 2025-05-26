@@ -15,10 +15,9 @@ export const VideoEducativo = () => {
           <div className="relative">
             <div className="absolute -inset-6 bg-gradient-to-r from-purple-500/30 to-indigo-500/30 rounded-3xl blur-xl"></div>
             <div className="relative bg-white p-6 md:p-8 rounded-2xl shadow-xl">              <div className="aspect-w-16 aspect-h-9 rounded-xl overflow-hidden">
-                {/* Video educativo sobre ciberseguridad */}
-                <iframe 
+                {/* Video educativo sobre ciberseguridad */}                <iframe 
                   className="w-full h-full rounded-xl"
-                  src="https://www.youtube.com/embed/inWWhr5tnEA" 
+                  src="https://www.youtube.com/embed/c7wAz9w4urY" 
                   title="Video educativo sobre ciberseguridad"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -39,9 +38,8 @@ export const VideoEducativo = () => {
                   Los recursos audiovisuales son fundamentales para la educación en ciberseguridad. Documentales como "El dilema de las redes sociales" (Orlowski, 2020) 
                   muestran cómo los algoritmos manipulan el comportamiento del usuario con fines comerciales. En Costa Rica, el programa "En la Mira" (SINART, 2022) 
                   abordó el ciberataque estatal de 2022, explicando sus efectos sobre instituciones como Hacienda y la CCSS.
-                </p>                <div className="mt-6 flex justify-end">
-                  <a 
-                    href="https://www.micitt.go.cr/gobierno-digital/ciberseguridad" 
+                </p>                <div className="mt-6 flex justify-end">                  <a 
+                    href="https://www.ciberseguridad.micitt.go.cr/" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="inline-flex items-center px-5 py-2 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-medium rounded-full hover:from-purple-700 hover:to-indigo-700 transition duration-300 shadow-md hover:shadow-lg group"

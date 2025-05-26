@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import 'aos/dist/aos.css';
-import '../app.css';
+import '../App.css';
 import { HeroSection } from './components/HeroSection';
 import { InfoCiberseguridad } from './components/InfoCiberseguridad';
 import { SobreProyecto } from './components/SobreProyecto';
@@ -32,17 +33,16 @@ const SimadPage = () => {
     <div className="bg-gradient-to-b from-gray-50 to-gray-100 min-h-screen font-roboto"> 
       {/* Componente para scroll hacia arriba */}
       <ScrollToTop />
-      
-      {/* Botón de ayuda con imágenes */}
-      <a
-        href="/guia-imagenes"
+        {/* Botón de ayuda con imágenes */}
+      <Link
+        to="/guia-imagenes"
         className="fixed top-4 right-4 z-50 bg-gradient-to-r from-amber-500 to-yellow-500 text-white rounded-full p-3 shadow-lg"
         title="¿Problemas con las imágenes?"
       >
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
-      </a>
+      </Link>
       
       {/* Debug Tool Button */}
       <button

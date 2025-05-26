@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import getCloudinaryUrl from '../utils/cloudinary';
 
 // Imágenes para recursos
@@ -163,17 +164,16 @@ export const RecursosEducativos = () => {  const recursos = [    {
                     </p>
                   </a>
                 </div>
-              </div>
-                <div className="mt-8 flex justify-end">
-                <button 
-                  onClick={() => window.open('/bibliografia', '_blank')} 
+              </div>              <div className="mt-8 flex justify-end">
+                <Link 
+                  to="/bibliografia"
                   className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-medium rounded-full hover:from-purple-700 hover:to-indigo-700 transition-all duration-300 shadow-md hover:shadow-lg group"
                 >
                   Ver bibliografía completa
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
                   </svg>
-                </button>
+                </Link>
               </div>
             </div>
           </div>
