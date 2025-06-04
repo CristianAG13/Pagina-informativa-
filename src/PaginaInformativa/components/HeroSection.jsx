@@ -45,6 +45,14 @@ export const HeroSection = () => {
             </p>
             <div className="mt-8">
             </div>
+            <a
+              href="https://forms.gle/8b7d1c4f3e2f5b6a9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-3 bg-emerald-500 text-white font-semibold rounded-lg hover:bg-emerald-600 transition-colors duration-300"
+            >
+              Participa en nuestra encuesta
+            </a>
           </div>
         </div>
       </div>
