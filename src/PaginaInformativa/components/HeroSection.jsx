@@ -46,7 +46,7 @@ export const HeroSection = () => {
             <div className="mt-8">
             </div>
             <a
-              href="https://forms.gle/8b7d1c4f3e2f5b6a9"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScwUCGKNauNNien41-Om9IN9_1TNY0SncyjUxXYMuCWZa7Wvw/viewform?usp=header"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 bg-emerald-500 text-white font-semibold rounded-lg hover:bg-emerald-600 transition-colors duration-300"
